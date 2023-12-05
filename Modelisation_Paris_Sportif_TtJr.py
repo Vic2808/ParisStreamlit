@@ -119,7 +119,7 @@ if page == pages[1] :
 elif page == pages[2] :
     st.title('Conclusion :')
     st.write("Calculons notre ROI si nous parions 1€ sur le vainqueur de chacun des 93 matchs du BNP Paribas OPEN 2018 d'Indian Wells selon 4 stratégies différentes :")
-    tableau = Image.open('tab_concu.png')
+    tableau = Image.open('Tab_concu.png')
     st.image(tableau)
     st.subheader("Analyse des résultats")
     st.markdown(
