@@ -115,7 +115,7 @@ if page == pages[1] :
         elif resultat == 0 and resultat != prediction:
             st.write(f"Le joueur qui a réellement gagné est {joueur_2} :x: ")
     
-'''    
+  
 elif page == pages[2] :
     st.title('Conclusion :')
     st.write("Calculons notre ROI si nous parions 1€ sur le vainqueur de chacun des 93 matchs du BNP Paribas OPEN 2018 d'Indian Wells selon 4 stratégies différentes :")
@@ -164,4 +164,3 @@ elif page == pages[2] :
     """
     :blue[**Dans ce contexte nous pouvons dire que nous avons battu les bookmakers sur l'estimation des probabilités d'un joueur gagnant un match de tennis !**]
     """)
-    '''
