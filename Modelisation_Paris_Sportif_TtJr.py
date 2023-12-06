@@ -3,6 +3,7 @@ import pandas as pd
 import pickle
 from lib2to3.pgen2.pgen import DFAState
 import numpy as np
+import sklearn
 from PIL import Image
 
 
