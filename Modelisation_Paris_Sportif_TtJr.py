@@ -3,10 +3,7 @@ import pandas as pd
 import pickle
 from lib2to3.pgen2.pgen import DFAState
 import numpy as np
-from sklearn.neighbors import KNeighborsClassifier
-from sklearn.tree import DecisionTreeClassifier
-from sklearn.ensemble import RandomForestClassifier
-from sklearn.linear_model import LinearRegression
+import sklearn
 from PIL import Image
 
 
